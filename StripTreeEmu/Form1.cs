@@ -113,7 +113,8 @@ namespace StripTreeEmu
                 loadBackground("res/default.jpg");
 
             widgetList = new List<PictureBox>();
-
+            if (System.IO.File.Exists("res/defw.xml"))
+                loadFromXML("res/defw.xml");
 
 
         }
@@ -314,6 +315,7 @@ namespace StripTreeEmu
             {
                 colors24[i] = 0;
             }
+
         }
 
         private void StopServer()
@@ -326,7 +328,6 @@ namespace StripTreeEmu
 
             setWidgetsVisibility(true);
 
-            
         }
 
         private void startToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -348,11 +349,22 @@ namespace StripTreeEmu
                     
                     //string returnData = Encoding.ASCII.GetString(receiveBytes);
                     //lbConnections.Items.Add(RemoteIpEndPoint.Address.ToString() + ":" + returnData.ToString());
+
+                    if (isRunning)
+                    {
+                        UDPMessage msg = new UDPMessage(receiveBytes);
+
+                        Buffer.BlockCopy(msg.data24, 0, colors24, 0, msg.header.dataLength); //data 900
+
+                        pictureBox1.Invalidate();
+                    }
+
                 }
             }
             catch (ThreadInterruptedException exception)
             {
                 /* Clean up. */
+                return;
             }
         }
 
@@ -370,6 +382,7 @@ namespace StripTreeEmu
 
             if (isRunning)
             {
+
                 
                 foreach (PictureBox item in widgetList)
                 {
@@ -377,7 +390,9 @@ namespace StripTreeEmu
                     //itn i=colors24[item.Tag * 3 + 0];
                     //Color.FromArgb(255, 0, 0)
                     int nr=(int)item.Tag;
-                    Color c = Color.FromArgb(colors24[nr], colors24[nr + 1], colors24[nr + 2]);
+                    nr--;
+                    
+                    Color c = Color.FromArgb(colors24[nr*3], colors24[nr*3 + 1], colors24[nr*3 + 2]);
                     e.Graphics.FillEllipse(new System.Drawing.SolidBrush(c), new Rectangle(item.Left, item.Top, item.Width, item.Height));
                 }
 
