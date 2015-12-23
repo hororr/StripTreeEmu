@@ -17,9 +17,12 @@ using System.Text;
 namespace StripTreeEmu
 {
 
+    enum myCommands { CMD_RAW24 = 3, PROG_AUTO = 50, PROG_TEST = 51, PROG_MANUAL = 52, PROG_COMM = 53, CMD_SETFPS = 60 };
 
     public partial class Form1 : Form
     {
+        
+
         private int ServerPort = 8081;
         private Thread thdUDPServer;
         private bool isRunning=false;
@@ -354,9 +357,20 @@ namespace StripTreeEmu
                     {
                         UDPMessage msg = new UDPMessage(receiveBytes);
 
-                        Buffer.BlockCopy(msg.data24, 0, colors24, 0, msg.header.dataLength); //data 900
+                        if (msg.header.msgType == (byte)StripTreeEmu.myCommands.CMD_RAW24) 
+                            Buffer.BlockCopy(msg.data24, 0, colors24, 0, msg.header.dataLength); //data 900
+                        else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_AUTO)
+                            toolStripStatusLabel_mode.Text = "MODE=AUTO";
+                        else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_TEST)
+                            toolStripStatusLabel_mode.Text = "MODE=TEST";
+                        else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_MANUAL)
+                            toolStripStatusLabel_mode.Text = "MODE=MANUAL";
+                        else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.CMD_SETFPS)
+                            toolStripStatusLabel_fps.Text = "FPS=" + ((int)msg.data24[0]).ToString();
+
 
                         pictureBox1.Invalidate();
+                        statusStrip1.Invalidate();
                     }
 
                 }

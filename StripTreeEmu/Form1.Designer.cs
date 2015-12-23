@@ -54,9 +54,13 @@
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog_W = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog_W = new System.Windows.Forms.SaveFileDialog();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel_fps = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel_mode = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -186,7 +190,7 @@
             // startToolStripMenuItem1
             // 
             this.startToolStripMenuItem1.Name = "startToolStripMenuItem1";
-            this.startToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.startToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
             this.startToolStripMenuItem1.Text = "Start";
             this.startToolStripMenuItem1.Click += new System.EventHandler(this.startToolStripMenuItem1_Click);
             // 
@@ -194,7 +198,7 @@
             // 
             this.stopToolStripMenuItem1.Enabled = false;
             this.stopToolStripMenuItem1.Name = "stopToolStripMenuItem1";
-            this.stopToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.stopToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
             this.stopToolStripMenuItem1.Text = "Stop";
             this.stopToolStripMenuItem1.Click += new System.EventHandler(this.stopToolStripMenuItem1_Click);
             // 
@@ -243,11 +247,35 @@
             // 
             this.saveFileDialog_W.FileName = "*.xml";
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel_fps,
+            this.toolStripStatusLabel_mode});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 456);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(632, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel_fps
+            // 
+            this.toolStripStatusLabel_fps.Name = "toolStripStatusLabel_fps";
+            this.toolStripStatusLabel_fps.Size = new System.Drawing.Size(46, 17);
+            this.toolStripStatusLabel_fps.Text = "FPS=25";
+            // 
+            // toolStripStatusLabel_mode
+            // 
+            this.toolStripStatusLabel_mode.Name = "toolStripStatusLabel_mode";
+            this.toolStripStatusLabel_mode.Size = new System.Drawing.Size(81, 17);
+            this.toolStripStatusLabel_mode.Text = "MODE=AUTO";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 478);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
             this.MainMenuStrip = this.menuStrip1;
@@ -260,6 +288,8 @@
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,6 +322,9 @@
         private System.Windows.Forms.ToolStripMenuItem serverToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem startToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_fps;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_mode;
     }
 }
 

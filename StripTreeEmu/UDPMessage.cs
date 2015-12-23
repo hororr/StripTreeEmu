@@ -9,7 +9,7 @@ namespace StripTreeEmu
 
 
     //THeader header = new THeader();
-
+    
     public class UDPMessage
     {
         public class THeader
@@ -43,9 +43,26 @@ namespace StripTreeEmu
             leds = _leds;
             typeOfPacket = _type;
             if (typeOfPacket == 3)
+            {
                 ledArrayLength = (int)(leds * 3);
-            else
-                ledArrayLength = (int)(leds * 3);
+                data24 = new Byte[ledArrayLength];
+            }
+            else if (typeOfPacket == 50)
+            {
+                ledArrayLength = 0;
+            }
+            else if (typeOfPacket == 51)
+            {
+                ledArrayLength = 0;
+            }
+            else if (typeOfPacket == 52)
+            {
+                ledArrayLength = 0;
+            }
+            else if (typeOfPacket == 60)
+            {
+                ledArrayLength = 1;
+            }
             header = new THeader();
             data24 = new Byte[ledArrayLength];
             UDPpacket = new Byte[ledArrayLength + 8 + 3 + 3];
@@ -73,7 +90,8 @@ namespace StripTreeEmu
             UDPpacket[9] = header.msgType;
             UDPpacket[10] = header.reserved;
 
-            Buffer.BlockCopy(data24, 0, UDPpacket, 3 + 8, ledArrayLength); //data 900
+            if (ledArrayLength>0)
+                Buffer.BlockCopy(data24, 0, UDPpacket, 3 + 8, ledArrayLength); //data 900
 
             Buffer.BlockCopy(EOF, 0, UDPpacket, 3 + 8 + ledArrayLength, 3); //EOF 3b
 
@@ -101,16 +119,6 @@ namespace StripTreeEmu
             //fill colors array
             Buffer.BlockCopy(_bArray, 11, data24, 0, header.dataLength); //data 900
 
-            /*
-            UDPpacket[3] = (Byte)((header.dataLength >> 8) & 0xFF);
-            UDPpacket[4] = (Byte)(header.dataLength & 0xFF);
-            UDPpacket[5] = (Byte)((header.crc16 >> 8) & 0xFF);
-            UDPpacket[6] = (Byte)(header.crc16 & 0xFF);
-            UDPpacket[7] = (Byte)((THeader.sequence >> 8) & 0xFF);
-            UDPpacket[8] = (Byte)(THeader.sequence & 0xFF);
-            UDPpacket[9] = header.msgType;
-            UDPpacket[10] = header.reserved;
-            */
             return true;
         }
         
