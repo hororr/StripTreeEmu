@@ -2,502 +2,502 @@
 <Widgets>
   <Widget>
     <nr>1</nr>
-    <x>705</x>
-    <y>295</y>
+    <x>701</x>
+    <y>291</y>
   </Widget>
   <Widget>
     <nr>2</nr>
-    <x>703</x>
-    <y>317</y>
+    <x>699</x>
+    <y>313</y>
   </Widget>
   <Widget>
     <nr>3</nr>
-    <x>702</x>
-    <y>335</y>
+    <x>698</x>
+    <y>331</y>
   </Widget>
   <Widget>
     <nr>4</nr>
-    <x>701</x>
-    <y>358</y>
+    <x>697</x>
+    <y>354</y>
   </Widget>
   <Widget>
     <nr>5</nr>
-    <x>698</x>
-    <y>377</y>
+    <x>694</x>
+    <y>373</y>
   </Widget>
   <Widget>
     <nr>6</nr>
-    <x>697</x>
-    <y>398</y>
-  </Widget>
-  <Widget>
-    <nr>7</nr>
-    <x>695</x>
-    <y>418</y>
-  </Widget>
-  <Widget>
-    <nr>8</nr>
-    <x>694</x>
-    <y>437</y>
-  </Widget>
-  <Widget>
-    <nr>9</nr>
-    <x>694</x>
-    <y>454</y>
-  </Widget>
-  <Widget>
-    <nr>10</nr>
-    <x>694</x>
-    <y>476</y>
-  </Widget>
-  <Widget>
-    <nr>11</nr>
-    <x>717</x>
-    <y>477</y>
-  </Widget>
-  <Widget>
-    <nr>12</nr>
-    <x>716</x>
-    <y>456</y>
-  </Widget>
-  <Widget>
-    <nr>13</nr>
-    <x>714</x>
-    <y>440</y>
-  </Widget>
-  <Widget>
-    <nr>14</nr>
-    <x>714</x>
-    <y>416</y>
-  </Widget>
-  <Widget>
-    <nr>15</nr>
-    <x>714</x>
+    <x>693</x>
     <y>394</y>
   </Widget>
   <Widget>
-    <nr>16</nr>
-    <x>714</x>
-    <y>374</y>
-  </Widget>
-  <Widget>
-    <nr>17</nr>
-    <x>716</x>
-    <y>356</y>
-  </Widget>
-  <Widget>
-    <nr>18</nr>
-    <x>714</x>
-    <y>331</y>
-  </Widget>
-  <Widget>
-    <nr>19</nr>
-    <x>717</x>
-    <y>314</y>
-  </Widget>
-  <Widget>
-    <nr>20</nr>
-    <x>719</x>
-    <y>294</y>
-  </Widget>
-  <Widget>
-    <nr>21</nr>
-    <x>737</x>
-    <y>297</y>
-  </Widget>
-  <Widget>
-    <nr>22</nr>
-    <x>737</x>
-    <y>314</y>
-  </Widget>
-  <Widget>
-    <nr>23</nr>
-    <x>731</x>
-    <y>336</y>
-  </Widget>
-  <Widget>
-    <nr>24</nr>
-    <x>731</x>
-    <y>359</y>
-  </Widget>
-  <Widget>
-    <nr>25</nr>
-    <x>731</x>
-    <y>374</y>
-  </Widget>
-  <Widget>
-    <nr>26</nr>
-    <x>728</x>
-    <y>400</y>
-  </Widget>
-  <Widget>
-    <nr>27</nr>
-    <x>728</x>
-    <y>419</y>
-  </Widget>
-  <Widget>
-    <nr>28</nr>
-    <x>730</x>
-    <y>435</y>
-  </Widget>
-  <Widget>
-    <nr>29</nr>
-    <x>732</x>
-    <y>455</y>
-  </Widget>
-  <Widget>
-    <nr>30</nr>
-    <x>732</x>
-    <y>476</y>
-  </Widget>
-  <Widget>
-    <nr>31</nr>
-    <x>753</x>
-    <y>480</y>
-  </Widget>
-  <Widget>
-    <nr>32</nr>
-    <x>753</x>
-    <y>455</y>
-  </Widget>
-  <Widget>
-    <nr>33</nr>
-    <x>751</x>
-    <y>436</y>
-  </Widget>
-  <Widget>
-    <nr>34</nr>
-    <x>747</x>
-    <y>418</y>
-  </Widget>
-  <Widget>
-    <nr>35</nr>
-    <x>745</x>
-    <y>400</y>
-  </Widget>
-  <Widget>
-    <nr>36</nr>
-    <x>745</x>
-    <y>376</y>
-  </Widget>
-  <Widget>
-    <nr>37</nr>
-    <x>745</x>
-    <y>356</y>
-  </Widget>
-  <Widget>
-    <nr>38</nr>
-    <x>749</x>
-    <y>337</y>
-  </Widget>
-  <Widget>
-    <nr>39</nr>
-    <x>750</x>
-    <y>315</y>
-  </Widget>
-  <Widget>
-    <nr>40</nr>
-    <x>754</x>
-    <y>297</y>
-  </Widget>
-  <Widget>
-    <nr>41</nr>
-    <x>773</x>
-    <y>298</y>
-  </Widget>
-  <Widget>
-    <nr>42</nr>
-    <x>772</x>
-    <y>318</y>
-  </Widget>
-  <Widget>
-    <nr>43</nr>
-    <x>772</x>
-    <y>333</y>
-  </Widget>
-  <Widget>
-    <nr>44</nr>
-    <x>769</x>
-    <y>357</y>
-  </Widget>
-  <Widget>
-    <nr>45</nr>
-    <x>769</x>
-    <y>380</y>
-  </Widget>
-  <Widget>
-    <nr>46</nr>
-    <x>768</x>
-    <y>398</y>
-  </Widget>
-  <Widget>
-    <nr>47</nr>
-    <x>768</x>
-    <y>417</y>
-  </Widget>
-  <Widget>
-    <nr>48</nr>
-    <x>768</x>
-    <y>437</y>
-  </Widget>
-  <Widget>
-    <nr>49</nr>
-    <x>771</x>
-    <y>455</y>
-  </Widget>
-  <Widget>
-    <nr>50</nr>
-    <x>772</x>
-    <y>479</y>
-  </Widget>
-  <Widget>
-    <nr>51</nr>
-    <x>788</x>
-    <y>479</y>
-  </Widget>
-  <Widget>
-    <nr>52</nr>
-    <x>786</x>
-    <y>456</y>
-  </Widget>
-  <Widget>
-    <nr>53</nr>
-    <x>783</x>
-    <y>438</y>
-  </Widget>
-  <Widget>
-    <nr>54</nr>
-    <x>783</x>
+    <nr>7</nr>
+    <x>691</x>
     <y>414</y>
   </Widget>
   <Widget>
-    <nr>55</nr>
-    <x>783</x>
-    <y>396</y>
+    <nr>8</nr>
+    <x>690</x>
+    <y>433</y>
   </Widget>
   <Widget>
-    <nr>56</nr>
-    <x>784</x>
-    <y>382</y>
+    <nr>9</nr>
+    <x>690</x>
+    <y>450</y>
   </Widget>
   <Widget>
-    <nr>57</nr>
-    <x>785</x>
-    <y>361</y>
+    <nr>10</nr>
+    <x>690</x>
+    <y>472</y>
   </Widget>
   <Widget>
-    <nr>58</nr>
-    <x>787</x>
-    <y>340</y>
+    <nr>11</nr>
+    <x>713</x>
+    <y>473</y>
   </Widget>
   <Widget>
-    <nr>59</nr>
-    <x>787</x>
-    <y>319</y>
+    <nr>12</nr>
+    <x>712</x>
+    <y>452</y>
   </Widget>
   <Widget>
-    <nr>60</nr>
-    <x>787</x>
-    <y>296</y>
+    <nr>13</nr>
+    <x>710</x>
+    <y>436</y>
   </Widget>
   <Widget>
-    <nr>61</nr>
-    <x>804</x>
-    <y>297</y>
+    <nr>14</nr>
+    <x>710</x>
+    <y>412</y>
   </Widget>
   <Widget>
-    <nr>62</nr>
-    <x>802</x>
-    <y>313</y>
+    <nr>15</nr>
+    <x>710</x>
+    <y>390</y>
   </Widget>
   <Widget>
-    <nr>63</nr>
-    <x>802</x>
-    <y>335</y>
+    <nr>16</nr>
+    <x>710</x>
+    <y>370</y>
   </Widget>
   <Widget>
-    <nr>64</nr>
-    <x>802</x>
-    <y>355</y>
+    <nr>17</nr>
+    <x>712</x>
+    <y>352</y>
   </Widget>
   <Widget>
-    <nr>65</nr>
-    <x>799</x>
-    <y>381</y>
+    <nr>18</nr>
+    <x>710</x>
+    <y>327</y>
   </Widget>
   <Widget>
-    <nr>66</nr>
-    <x>798</x>
-    <y>399</y>
+    <nr>19</nr>
+    <x>713</x>
+    <y>310</y>
   </Widget>
   <Widget>
-    <nr>67</nr>
-    <x>798</x>
-    <y>416</y>
+    <nr>20</nr>
+    <x>715</x>
+    <y>290</y>
   </Widget>
   <Widget>
-    <nr>68</nr>
-    <x>797</x>
-    <y>439</y>
-  </Widget>
-  <Widget>
-    <nr>69</nr>
-    <x>799</x>
-    <y>457</y>
-  </Widget>
-  <Widget>
-    <nr>70</nr>
-    <x>799</x>
-    <y>479</y>
-  </Widget>
-  <Widget>
-    <nr>71</nr>
-    <x>817</x>
-    <y>480</y>
-  </Widget>
-  <Widget>
-    <nr>72</nr>
-    <x>816</x>
-    <y>456</y>
-  </Widget>
-  <Widget>
-    <nr>73</nr>
-    <x>815</x>
-    <y>435</y>
-  </Widget>
-  <Widget>
-    <nr>74</nr>
-    <x>814</x>
-    <y>415</y>
-  </Widget>
-  <Widget>
-    <nr>75</nr>
-    <x>814</x>
-    <y>399</y>
-  </Widget>
-  <Widget>
-    <nr>76</nr>
-    <x>815</x>
-    <y>383</y>
-  </Widget>
-  <Widget>
-    <nr>77</nr>
-    <x>817</x>
-    <y>357</y>
-  </Widget>
-  <Widget>
-    <nr>78</nr>
-    <x>819</x>
-    <y>334</y>
-  </Widget>
-  <Widget>
-    <nr>79</nr>
-    <x>818</x>
-    <y>313</y>
-  </Widget>
-  <Widget>
-    <nr>80</nr>
-    <x>819</x>
+    <nr>21</nr>
+    <x>733</x>
     <y>293</y>
   </Widget>
   <Widget>
-    <nr>81</nr>
-    <x>837</x>
-    <y>296</y>
+    <nr>22</nr>
+    <x>733</x>
+    <y>310</y>
   </Widget>
   <Widget>
-    <nr>82</nr>
-    <x>836</x>
-    <y>313</y>
+    <nr>23</nr>
+    <x>727</x>
+    <y>332</y>
   </Widget>
   <Widget>
-    <nr>83</nr>
-    <x>836</x>
-    <y>331</y>
-  </Widget>
-  <Widget>
-    <nr>84</nr>
-    <x>836</x>
+    <nr>24</nr>
+    <x>727</x>
     <y>355</y>
   </Widget>
   <Widget>
-    <nr>85</nr>
-    <x>834</x>
-    <y>377</y>
+    <nr>25</nr>
+    <x>727</x>
+    <y>370</y>
   </Widget>
   <Widget>
-    <nr>86</nr>
-    <x>835</x>
-    <y>397</y>
+    <nr>26</nr>
+    <x>724</x>
+    <y>396</y>
   </Widget>
   <Widget>
-    <nr>87</nr>
-    <x>835</x>
-    <y>411</y>
+    <nr>27</nr>
+    <x>724</x>
+    <y>415</y>
   </Widget>
   <Widget>
-    <nr>88</nr>
-    <x>836</x>
-    <y>435</y>
+    <nr>28</nr>
+    <x>726</x>
+    <y>431</y>
   </Widget>
   <Widget>
-    <nr>89</nr>
-    <x>835</x>
-    <y>455</y>
+    <nr>29</nr>
+    <x>728</x>
+    <y>451</y>
   </Widget>
   <Widget>
-    <nr>90</nr>
-    <x>835</x>
-    <y>478</y>
+    <nr>30</nr>
+    <x>728</x>
+    <y>472</y>
   </Widget>
   <Widget>
-    <nr>91</nr>
-    <x>855</x>
-    <y>477</y>
+    <nr>31</nr>
+    <x>749</x>
+    <y>476</y>
   </Widget>
   <Widget>
-    <nr>92</nr>
-    <x>854</x>
-    <y>457</y>
+    <nr>32</nr>
+    <x>749</x>
+    <y>451</y>
   </Widget>
   <Widget>
-    <nr>93</nr>
-    <x>853</x>
-    <y>438</y>
+    <nr>33</nr>
+    <x>747</x>
+    <y>432</y>
   </Widget>
   <Widget>
-    <nr>94</nr>
-    <x>854</x>
-    <y>411</y>
+    <nr>34</nr>
+    <x>743</x>
+    <y>414</y>
   </Widget>
   <Widget>
-    <nr>95</nr>
-    <x>855</x>
-    <y>393</y>
+    <nr>35</nr>
+    <x>741</x>
+    <y>396</y>
   </Widget>
   <Widget>
-    <nr>96</nr>
-    <x>855</x>
-    <y>376</y>
+    <nr>36</nr>
+    <x>741</x>
+    <y>372</y>
   </Widget>
   <Widget>
-    <nr>97</nr>
-    <x>855</x>
-    <y>353</y>
+    <nr>37</nr>
+    <x>741</x>
+    <y>352</y>
   </Widget>
   <Widget>
-    <nr>98</nr>
-    <x>854</x>
-    <y>336</y>
+    <nr>38</nr>
+    <x>745</x>
+    <y>333</y>
   </Widget>
   <Widget>
-    <nr>99</nr>
-    <x>853</x>
+    <nr>39</nr>
+    <x>746</x>
+    <y>311</y>
+  </Widget>
+  <Widget>
+    <nr>40</nr>
+    <x>750</x>
+    <y>293</y>
+  </Widget>
+  <Widget>
+    <nr>41</nr>
+    <x>769</x>
+    <y>294</y>
+  </Widget>
+  <Widget>
+    <nr>42</nr>
+    <x>768</x>
     <y>314</y>
   </Widget>
   <Widget>
+    <nr>43</nr>
+    <x>768</x>
+    <y>329</y>
+  </Widget>
+  <Widget>
+    <nr>44</nr>
+    <x>765</x>
+    <y>353</y>
+  </Widget>
+  <Widget>
+    <nr>45</nr>
+    <x>765</x>
+    <y>376</y>
+  </Widget>
+  <Widget>
+    <nr>46</nr>
+    <x>764</x>
+    <y>394</y>
+  </Widget>
+  <Widget>
+    <nr>47</nr>
+    <x>764</x>
+    <y>413</y>
+  </Widget>
+  <Widget>
+    <nr>48</nr>
+    <x>764</x>
+    <y>433</y>
+  </Widget>
+  <Widget>
+    <nr>49</nr>
+    <x>767</x>
+    <y>451</y>
+  </Widget>
+  <Widget>
+    <nr>50</nr>
+    <x>768</x>
+    <y>475</y>
+  </Widget>
+  <Widget>
+    <nr>51</nr>
+    <x>784</x>
+    <y>475</y>
+  </Widget>
+  <Widget>
+    <nr>52</nr>
+    <x>782</x>
+    <y>452</y>
+  </Widget>
+  <Widget>
+    <nr>53</nr>
+    <x>779</x>
+    <y>434</y>
+  </Widget>
+  <Widget>
+    <nr>54</nr>
+    <x>779</x>
+    <y>410</y>
+  </Widget>
+  <Widget>
+    <nr>55</nr>
+    <x>779</x>
+    <y>392</y>
+  </Widget>
+  <Widget>
+    <nr>56</nr>
+    <x>780</x>
+    <y>378</y>
+  </Widget>
+  <Widget>
+    <nr>57</nr>
+    <x>781</x>
+    <y>357</y>
+  </Widget>
+  <Widget>
+    <nr>58</nr>
+    <x>783</x>
+    <y>336</y>
+  </Widget>
+  <Widget>
+    <nr>59</nr>
+    <x>783</x>
+    <y>315</y>
+  </Widget>
+  <Widget>
+    <nr>60</nr>
+    <x>783</x>
+    <y>292</y>
+  </Widget>
+  <Widget>
+    <nr>61</nr>
+    <x>800</x>
+    <y>293</y>
+  </Widget>
+  <Widget>
+    <nr>62</nr>
+    <x>798</x>
+    <y>309</y>
+  </Widget>
+  <Widget>
+    <nr>63</nr>
+    <x>798</x>
+    <y>331</y>
+  </Widget>
+  <Widget>
+    <nr>64</nr>
+    <x>798</x>
+    <y>351</y>
+  </Widget>
+  <Widget>
+    <nr>65</nr>
+    <x>795</x>
+    <y>377</y>
+  </Widget>
+  <Widget>
+    <nr>66</nr>
+    <x>794</x>
+    <y>395</y>
+  </Widget>
+  <Widget>
+    <nr>67</nr>
+    <x>794</x>
+    <y>412</y>
+  </Widget>
+  <Widget>
+    <nr>68</nr>
+    <x>793</x>
+    <y>435</y>
+  </Widget>
+  <Widget>
+    <nr>69</nr>
+    <x>795</x>
+    <y>453</y>
+  </Widget>
+  <Widget>
+    <nr>70</nr>
+    <x>795</x>
+    <y>475</y>
+  </Widget>
+  <Widget>
+    <nr>71</nr>
+    <x>813</x>
+    <y>476</y>
+  </Widget>
+  <Widget>
+    <nr>72</nr>
+    <x>812</x>
+    <y>452</y>
+  </Widget>
+  <Widget>
+    <nr>73</nr>
+    <x>811</x>
+    <y>431</y>
+  </Widget>
+  <Widget>
+    <nr>74</nr>
+    <x>810</x>
+    <y>411</y>
+  </Widget>
+  <Widget>
+    <nr>75</nr>
+    <x>810</x>
+    <y>395</y>
+  </Widget>
+  <Widget>
+    <nr>76</nr>
+    <x>811</x>
+    <y>379</y>
+  </Widget>
+  <Widget>
+    <nr>77</nr>
+    <x>813</x>
+    <y>353</y>
+  </Widget>
+  <Widget>
+    <nr>78</nr>
+    <x>815</x>
+    <y>330</y>
+  </Widget>
+  <Widget>
+    <nr>79</nr>
+    <x>814</x>
+    <y>309</y>
+  </Widget>
+  <Widget>
+    <nr>80</nr>
+    <x>815</x>
+    <y>289</y>
+  </Widget>
+  <Widget>
+    <nr>81</nr>
+    <x>833</x>
+    <y>292</y>
+  </Widget>
+  <Widget>
+    <nr>82</nr>
+    <x>832</x>
+    <y>309</y>
+  </Widget>
+  <Widget>
+    <nr>83</nr>
+    <x>832</x>
+    <y>327</y>
+  </Widget>
+  <Widget>
+    <nr>84</nr>
+    <x>832</x>
+    <y>351</y>
+  </Widget>
+  <Widget>
+    <nr>85</nr>
+    <x>830</x>
+    <y>373</y>
+  </Widget>
+  <Widget>
+    <nr>86</nr>
+    <x>831</x>
+    <y>393</y>
+  </Widget>
+  <Widget>
+    <nr>87</nr>
+    <x>831</x>
+    <y>407</y>
+  </Widget>
+  <Widget>
+    <nr>88</nr>
+    <x>832</x>
+    <y>431</y>
+  </Widget>
+  <Widget>
+    <nr>89</nr>
+    <x>831</x>
+    <y>451</y>
+  </Widget>
+  <Widget>
+    <nr>90</nr>
+    <x>831</x>
+    <y>474</y>
+  </Widget>
+  <Widget>
+    <nr>91</nr>
+    <x>851</x>
+    <y>473</y>
+  </Widget>
+  <Widget>
+    <nr>92</nr>
+    <x>850</x>
+    <y>453</y>
+  </Widget>
+  <Widget>
+    <nr>93</nr>
+    <x>849</x>
+    <y>434</y>
+  </Widget>
+  <Widget>
+    <nr>94</nr>
+    <x>850</x>
+    <y>407</y>
+  </Widget>
+  <Widget>
+    <nr>95</nr>
+    <x>851</x>
+    <y>389</y>
+  </Widget>
+  <Widget>
+    <nr>96</nr>
+    <x>851</x>
+    <y>372</y>
+  </Widget>
+  <Widget>
+    <nr>97</nr>
+    <x>851</x>
+    <y>349</y>
+  </Widget>
+  <Widget>
+    <nr>98</nr>
+    <x>850</x>
+    <y>332</y>
+  </Widget>
+  <Widget>
+    <nr>99</nr>
+    <x>849</x>
+    <y>310</y>
+  </Widget>
+  <Widget>
     <nr>100</nr>
-    <x>853</x>
-    <y>297</y>
+    <x>849</x>
+    <y>293</y>
   </Widget>
 </Widgets>

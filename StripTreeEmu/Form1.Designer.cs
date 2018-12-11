@@ -216,6 +216,10 @@
             // 
             this.openFileDialog_background.FileName = "openFileDialog1";
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -241,7 +245,7 @@
             // 
             // openFileDialog_W
             // 
-            this.openFileDialog_W.FileName = "*.wml";
+            this.openFileDialog_W.FileName = "*.xml";
             // 
             // saveFileDialog_W
             // 
@@ -267,7 +271,7 @@
             // toolStripStatusLabel_mode
             // 
             this.toolStripStatusLabel_mode.Name = "toolStripStatusLabel_mode";
-            this.toolStripStatusLabel_mode.Size = new System.Drawing.Size(81, 17);
+            this.toolStripStatusLabel_mode.Size = new System.Drawing.Size(80, 17);
             this.toolStripStatusLabel_mode.Text = "MODE=AUTO";
             // 
             // Form1

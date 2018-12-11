@@ -17,7 +17,7 @@ using System.Text;
 namespace StripTreeEmu
 {
 
-    enum myCommands { CMD_RAW24 = 3, PROG_AUTO = 50, PROG_TEST = 51, PROG_MANUAL = 52, PROG_COMM = 53, CMD_SETFPS = 60 };
+    enum myCommands { CMD_RAW24 = 3, CMD_RAW24_2 = 4, PROG_AUTO = 50, PROG_TEST = 51, PROG_MANUAL = 52, PROG_COMM = 53, CMD_SETFPS = 60 };
 
     public partial class Form1 : Form
     {
@@ -357,9 +357,14 @@ namespace StripTreeEmu
                     {
                         UDPMessage msg = new UDPMessage(receiveBytes);
 
-                        if (msg.header.msgType == (byte)StripTreeEmu.myCommands.CMD_RAW24) 
+                        if (msg.header.msgType == (byte)StripTreeEmu.myCommands.CMD_RAW24)
+                        {
+                            toolStripStatusLabel_mode.Text = "MODE=RGB24";
                             Buffer.BlockCopy(msg.data24, 0, colors24, 0, msg.header.dataLength); //data 900
-                        else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_AUTO)
+                        } else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.CMD_RAW24_2) {
+                            toolStripStatusLabel_mode.Text = "MODE=RGB24_Cluster2";
+                            Buffer.BlockCopy(msg.data24, 0, colors24, 0, msg.header.dataLength); //data 900                        
+                        } else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_AUTO)
                             toolStripStatusLabel_mode.Text = "MODE=AUTO";
                         else if (msg.header.msgType == (byte)StripTreeEmu.myCommands.PROG_TEST)
                             toolStripStatusLabel_mode.Text = "MODE=TEST";
@@ -422,6 +427,11 @@ namespace StripTreeEmu
         private void stopToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             StopServer();
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
         }
 
     }
